@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocuFaune - Documentaires Animaliers Scientifiques</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌊</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">🌊</div>
+                <h1>DocuFaune</h1>
+                <p class="subtitle">Documentaires animaliers scientifiques</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="intro">
+                <h2>Contenu scientifique rigoureux</h2>
+                <p>Documentaires animaliers sérieux, expéditions maritimes, observations éthologiques. Zéro divertissement anthropomorphique.</p>
+            </section>
+
+            <section class="categories">
+                <div class="category-card">
+                    <h3>🌊 Expéditions Marines</h3>
+                    <p>Missions océanographiques et recherches en mer</p>
+                </div>
+                <div class="category-card">
+                    <h3>🐋 Biologie Marine</h3>
+                    <p>Étude scientifique des écosystèmes marins</p>
+                </div>
+                <div class="category-card">
+                    <h3>❄️ Expéditions Polaires</h3>
+                    <p>Recherches scientifiques aux pôles</p>
+                </div>
+            </section>
+
+            <section class="content-warning">
+                <div class="warning">
+                    ⚠️ Ce site ne contient PAS de divertissement animalier anthropomorphique. Uniquement du contenu scientifique vérifié.
+                </div>
+            </section>
+
+            <section class="updates">
+                <h2>Prochainement</h2>
+                <ul>
+                    <li>🔬 Base de données de documentaires scientifiques</li>
+                    <li>🗺️ Carte interactive des expéditions en cours</li>
+                    <li>📚 Fiches scientifiques détaillées</li>
+                    <li>🔍 Moteur de recherche par espèces et écosystèmes</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>DocuFaune Authentique • Contenu scientifique rigoureux</p>
+            <p class="sources">Sources : Institut Océanographique • Expéditions TARA • CNRS • National Geographic Society</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
