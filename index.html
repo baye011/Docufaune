@@ -101,12 +101,12 @@ footer{background:var(--charbon);border-top:1px solid rgba(255,255,255,.08);padd
 
 <script>
 const animals=[
-{name:"Éléphant de savane",meta:"Afrique de l'Est · 2025",desc:"Migration saisonnière et interaction sociale au sein du troupeau.",img:"https://images.pexels.com/photos/110153/pexels-photo-110153.jpeg?auto=compress&cs=tinysrgb&w=800"},
-{name:"Manchot empereur",meta:"Antarctique · 2024",desc:"Reproduction sur la glace avec températures sous -40 °C.",img:"https://images.pexels.com/photos/208987/pexels-photo-208987.jpeg?auto=compress&cs=tinysrgb&w=800"},
+{name:"Éléphant de savane",meta:"Afrique de l'Est · 2025",desc:"Migration saisonnière et interaction sociale au sein du troupeau.",img:"https://images.pexels.com/photos/13129167/pexels-photo-13129167.jpeg?auto=compress&cs=tinysrgb&w=800"},
+{name:"Manchot empereur",meta:"Antarctique · 2024",desc:"Reproduction sur la glace avec températures sous -40 °C.",img:"https://images.pexels.com/photos/36732837/pexels-photo-36732837.jpeg?auto=compress&cs=tinysrgb&w=800"},
 {name:"Requin marteau",meta:"Océan Indien · 2025",desc:"Comportement de chasse dans les eaux profondes.",img:"https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=800"},
-{name:"Ours polaire",meta:"Arctique canadien · 2024",desc:"Dépendance aux glaces marines et impact du réchauffement.",img:"https://images.pexels.com/photos/1564342/pexels-photo-1564342.jpeg?auto=compress&cs=tinysrgb&w=800"},
-{name:"Tigre de Bengale",meta:"Inde du Nord · 2025",desc:"Territoire, marquage et chasse nocturne dans la jungle.",img:"https://images.pexels.com/photos/3354837/pexels-photo-3354837.jpeg?auto=compress&cs=tinysrgb&w=800"},
-{name:"Grand requin blanc",meta:"Océan Atlantique · 2025",desc:"Migration transocéanique capturée par balise satellite.",img:"https://images.pexels.com/photos/5343353/pexels-photo-5343353.jpeg?auto=compress&cs=tinysrgb&w=800"}];
+{name:"Ours polaire",meta:"Arctique · 2024",desc:"Dépendance aux glaces marines et impact du réchauffement.",img:"https://images.pexels.com/photos/19073643/pexels-photo-19073643.jpeg?auto=compress&cs=tinysrgb&w=800"},
+{name:"Tigre de Bengale",meta:"Inde du Nord · 2025",desc:"Territoire, marquage et chasse nocturne dans la jungle.",img:"https://images.pexels.com/photos/16878274/pexels-photo-16878274.jpeg?auto=compress&cs=tinysrgb&w=800"},
+{name:"Grand requin blanc",meta:"Océan Atlantique · 2025",desc:"Migration transocéanique capturée par balise satellite.",img:"https://images.pexels.com/photos/18659794/pexels-photo-18659794.jpeg?auto=compress&cs=tinysrgb&w=800"}];
 const grid=document.getElementById('gallery-grid');
 grid.innerHTML=animals.map(a=>`<article class="card" aria-label="${a.name}"><img src="${a.img}" alt="${a.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=800&auto=format&fit=crop'"><div class="card-body"><h3>${a.name}</h3><span class="meta">${a.meta}</span><p>${a.desc}</p></div></article>`).join('');
 </script>
